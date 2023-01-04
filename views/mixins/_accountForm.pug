@@ -1,5 +1,4 @@
 mixin accountForm()
-	pre= h.dump(user)
 	form(action="/account" method="POST")
 		strong.label(for="name") Name 
 		input(type="text" name="name" value=user.name)
