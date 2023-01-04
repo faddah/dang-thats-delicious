@@ -3,6 +3,7 @@ node_modules/
 *.log
 .idea
 haters/
+dist/
 package-lock.json
 variables.env
 variables.env.now
